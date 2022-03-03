@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    
+</head>
+<body >
+    
+    <center>
+        
+        <h3> <span>A</span><span>T</span><span>M</span> </h3>
+        <marquee behavior="scroll" direction="" scrollAmount="010">Welcome to our bank</marquee>
+        <table border="2"  width="500px" height="400px">
+            <tr>
+                <td  id="data"><button onclick="withDraw()">Withdraw</button></td>
+                <td rowspan="2" id="row"> 
+                    <p id="userBalance"></p>
+                    <p id="userDetail"></p>
+                    
+                </td>
+                
+                <td id="data" ><button onclick="depositMoney()">Deposit</button></td>
+            </tr>
+            <tr>    
+                <td id="data"><button>Transfer</button></td>
+                <td id="data"><button onclick="cancel()">Cancel</button></td>
+          
+            </tr>
+            <tr>
+                <td id="data"><button onclick="airtime()">Airtime</button></td>
+                <td rowspan="2" id="data"><input type="text" name="" id="userInput" placeholder="0,000,000"></td>
+                <td id="data"><button onclick="checkBalance()">Check balance</button></td>
+            </tr>
+            <tr>
+                <td id="data"> <button onclick="enter()">Enter</button></td>
+                <td id="data"><button onclick="turnOn()"> Turn on</button></td>
+             
+            </tr>
+        </table>
+    </center>
+    
+</body>
+</html>
